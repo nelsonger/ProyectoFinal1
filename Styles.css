@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+section#hero{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+section#hero h2{
+    font-size: 2rem;
+}
+
+section#projects h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail{
+    border: 5px solid lightskyblue;
+    border-radius: 10px;
+    width: 465px;
+    margin: 10px;
+}
+
+.project-detail img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: burlywood;
+}
+
+section#contact h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 60px;
+}
+
+section#contact{
+    background-color: lightgray;
+}
+
+form{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 6px;
+    
+}
+
+.field:focus{
+    border-color: lightgreen;
+}
